@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Football Sports | Images</title>
+
+  <style>
+    /* Internal CSS */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      background-color: #0b1a2d;
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 8px 15px;
+    }
+
+    nav a:hover {
+      background-color: #1e3a5f;
+      border-radius: 5px;
+    }
+
+    nav a:visited {
+      color: #cccccc;
+    }
+
+    nav a:active {
+      color: yellow;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .image-box {
+      flex: 1 1 300px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #f8f8f8;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .image-box img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .image-box p {
+      padding: 10px;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    footer {
+      background-color: #0b1a2d;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="help.html">Help</a>
+    <a href="images.html">Images</a>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="gallery">
+    <div class="image-box">
+      <img src="WhatsApp Image 2025-07-18 at 22.30.17_4a97e3b8.jpg" alt="Football Match">
+      <p>Exciting match moment from the national league.</p>
+    </div>
+    
+    <div class="image-box">
+      <img src="WhatsApp Image 2025-07-18 at 22.30.17_0bf57169.jpg" alt="Team Celebration">
+      <p>Our team celebrating a hard-fought victory.</p>
+    </div>
+    
+    <img src="WhatsApp Image 2025-07-18 at 22.30.16_c6b4a2dc.jpg" alt="">
+      <p>Coaching session for youth footballers in our academy.</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Football Sports. All rights reserved.
+  </footer>
+
+</body>
+</html>
